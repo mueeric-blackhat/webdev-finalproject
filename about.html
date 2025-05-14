@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Tech Blog</title>
+  <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>About Our Tech Blog</h1>
+    <nav>
+      <a href="ndex.html">Home</a>
+        <a href="contact.html">Contact</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-about">
+    <div class="hero-about-content">
+      <img src="https://i.pinimg.com/736x/36/ee/15/36ee155e11d38fdb0183961e3a801530.jpg" alt="About Tech Blog" class="hero-about-img">
+      <div class="hero-text">
+        <h2>Shaping the Future with Tech</h2>
+        <p>We are passionate about exploring technology's impact on our world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="about-content">
+    <div class="about-card">
+      <img src="https://i.pinimg.com/736x/73/d3/ce/73d3ce26aa61b3d48e939e554976b568.jpg" alt="Our Mission">
+      <h3>Our Mission</h3>
+      <p>To provide insightful, timely, and engaging content about technological innovation and how it shapes everyday life.</p>
+    </div>
+
+    <div class="about-card">
+      <img src="https://i.pinimg.com/736x/3a/c6/54/3ac65486cb73090b04c2762986d1fcc7.jpg" alt="Our Vision">
+      <h3>Our Vision</h3>
+      <p>We envision a world informed and empowered by technology. We aim to bridge the gap between innovation and real-life application.</p>
+    </div>
+
+    <div class="about-card">
+      <img src="https://i.pinimg.com/736x/ef/15/01/ef1501ba923aa86850b08f3a1b05e13e.jpg" alt="Our Team">
+      <h3>Our Team</h3>
+      <p>A group of writers, developers, and designers who love everything tech—from AI to cybersecurity, we share stories that matter.</p>
+    </div>
+  </section>
+
+  <!-- Reach Us Section -->
+  <section class="contact-section">
+    <h2>Reach Us</h2>
+    <div class="contact-container">
+      
+      <!-- Contact Form -->
+      <form class="contact-form" onsubmit="return validateForm()">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Email:</strong> techblog345@gmail.com</p>
+        <p><strong>Phone:</strong> +254 712 345 678</p>
+        <p><strong>Location:</strong> Nairobi, Kenya</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Tech Blog. Subcribe for more Blogs.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

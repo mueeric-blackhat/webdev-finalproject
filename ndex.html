@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technology & Innovation Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header with Site Name and Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">TechBlog</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="hero">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <img src="https://i.pinimg.com/736x/7f/f3/b8/7ff3b8ad2133596e53f1cef5b5b67958.jpg" alt="Technology and Innovation" />
+      <div class="hero-text">
+        <h1>The Future Starts Here</h1>
+        <p>Insights and stories about how technology is shaping tomorrow.</p>
+        <a href="#blog" class="hero-button">Read Our Blog</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <main id="blog">
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/e4/0f/59/e40f595ba3eec72137d47e20911b6ece.jpg" alt="Innovation" />
+      <h2>How Technology Drives Innovation</h2>
+      <p>Technology fuels innovation in every industry. From healthcare to education, it's accelerating problem solving and improving lives.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog1')">Read More</button>
+    </article>
+
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/97/e8/dd/97e8ddb09a792b66c7853a9fa8c92806.jpg" alt="AI Revolution">
+      <h2>AI Revolution in 2025</h2>
+      <p>How artificial intelligence is transforming industries across the globe.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog2')">Read More</button>
+    </article>
+
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/79/69/6e/79696e8c54d72415efa703cc4518afb7.jpg" alt="Green Tech">
+      <h2>Green Tech and Sustainability</h2>
+      <p>Innovations that are leading us to a more sustainable and eco-friendly future.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog3')">Read More</button>
+    </article>
+
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/2b/99/6f/2b996f69ee303ed2571b4530bb106370.jpg" alt="5G Networks">
+      <h2>5G and Beyond</h2>
+      <p>The power of 5G technology and what it means for our connected world.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog4')">Read More</button>
+    </article>
+
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/2c/90/98/2c9098ed5f56f2f6a93c379e2282c5a4.jpg" alt="Cybersecurity">
+      <h2>Cybersecurity in the Digital Age</h2>
+      <p>Protecting data in a world full of digital threats and cyber risks.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog5')">Read More</button>
+    </article>
+
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/ea/31/db/ea31db8b52aaf1c09e7353896ede0708.jpg" alt="Artificial Intelligence" />
+      <h2>AI and Machine Learning</h2>
+      <p>Artificial Intelligence is transforming how we analyze data, predict outcomes, and automate tasks, making businesses smarter and more efficient.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog6')">Read More</button>
+    </article>
+
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/be/76/73/be767326a1b74654a7c22c4c2aba7246.jpg" alt="Smart Living" />
+      <h2>Smart Homes, Smarter Living</h2>
+      <p>With IoT devices, our homes are more connected than ever. From voice assistants to smart security, life is becoming more seamless and secure.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog7')">Read More</button>
+    </article>
+
+    <article class="blog-post">
+      <img src="https://i.pinimg.com/736x/13/cb/bf/13cbbff416c140a43f4f1ef20e758e73.jpg" alt="Global Collaboration" />
+      <h2>Global Collaboration in the Digital Age</h2>
+      <p>Technology enables global teamwork. Platforms like Zoom and GitHub let teams build amazing things from anywhere in the world.</p>
+      <button class="read-more-btn" onclick="openModal('modal-blog8')">Read More</button>
+    </article>
+  </main>
+
+  <!-- Blog Modals -->
+  <div id="modal-blog1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog1')">&times;</span>
+      <h2>How Technology Drives Innovation</h2>
+      <p>
+        Technology fuels innovation in every industry. From healthcare to education, it's accelerating problem solving and improving lives.<br><br>
+        <strong>Full article: </strong> Explore how cloud computing, AI, and IoT are enabling new solutions and business models across the globe.
+      </p>
+        <p>
+            <strong>Full article: </strong> Explore how cloud computing, AI, and IoT are enabling new solutions and business models across the globe.
+        <p>
+            <strong>Author:</strong> Eric Muasya<br>
+            <strong>Date:</strong> May 15, 2025 <br>
+            <strong>Category:</strong> Technology, Innovation
+        </p>
+      <p>
+        <strong>Tags:</strong> Technology, Innovation, Future
+        </p>
+      
+      
+    </div>
+  </div>
+  <div id="modal-blog2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog2')">&times;</span>
+      <h2>AI Revolution in 2025</h2>
+      <p>
+
+        The AI revolution is here. With advancements in natural language processing and machine learning, AI is reshaping industries like healthcare, education, and transportation. With improved language models, machine vision, and predictive analytics, AI is embedded in everyday tools, streamlining human-machine interaction.
+        AI is reshaping industries like healthcare, education, and transportation. With improved language models, machine vision, and predictive analytics, AI is embedded in everyday tools, streamlining human-machine interaction.
+      </p>
+        <p>
+            <strong>Full article: </strong> Discover how AI is transforming industries, enhancing productivity, and creating new opportunities for innovation.
+        <p>
+            <strong>Author:</strong> James Brake<br>
+            <strong>Date:</strong> May 15, 2025 <br>
+            <strong>Category:</strong> Technology, AI
+        </p>
+      <p>
+        <strong>Tags:</strong> AI, Technology, Future
+        </p>
+    </div>
+  </div>
+  <div id="modal-blog3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog3')">&times;</span>
+      <h2>Green Tech and Sustainability</h2>
+      <p>
+        Green technology is revolutionizing how we approach energy and resources. Innovations in solar power, electric vehicles, and smart grids are reducing carbon footprints and promoting sustainability worldwide.
+      </p>
+        Technology is pushing the boundaries of clean energy. Innovations in solar power, EVs, and smart grids are reducing carbon footprints and promoting sustainability worldwide.
+      </p>
+        <p>
+            <strong>Full article: </strong> Discover how green technology is reshaping industries and promoting sustainability in our daily lives.
+        <p>
+            <strong>Author:</strong> Catherine Mukunga<br>
+            <strong>Date:</strong> January 12, 2025 <br>
+            <strong>Category:</strong> Technology, Sustainability
+        </p>
+        <p>
+            <strong>Tags:</strong> Green Tech, Sustainability, Future
+        </p>
+    </div>
+  </div>
+  <div id="modal-blog4" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog4')">&times;</span>
+      <h2>5G and Beyond</h2>
+      <p>
+            <p>
+                As 5G networks continue to expand, industries such as healthcare, manufacturing, and entertainment are experiencing unprecedented growth in connectivity and innovation. The rollout of 5G is also laying the groundwork for future wireless technologies, ensuring that our digital infrastructure remains robust and adaptable for years to come.
+            </p>
+        5G technology is revolutionizing connectivity. With its high speed and low latency, it enables new applications in AR/VR, autonomous vehicles, and smart cities. The future of communication is here.
+      </p>
+        5G technology enables ultra-fast data transfer, low latency, and massive IoT connectivity. It paves the way for smart cities, remote surgery, and enhanced user experiences in mobile tech.
+      </p>
+        <p>
+            <strong>Full article: </strong> Discover how 5G is transforming industries, enhancing connectivity, and enabling new applications in the digital landscape.
+        <p>
+            <strong>Author:</strong> Johnson Mic<br>
+            <strong>Date:</strong> February 15, 2025 <br>
+            <strong>Category:</strong> Technology, 5G
+        </p>
+    </div>
+  </div>
+  <div id="modal-blog5" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog5')">&times;</span>
+      <h2>Cybersecurity in the Digital Age</h2>
+      <p>
+        Cybersecurity is more critical than ever. As we move more services online, securing digital infrastructure is critical. Cybersecurity innovation now focuses on AI-based threat detection, end-to-end encryption, and decentralized security protocols.
+        Cybersecurity is a growing concern in our digital world. With increasing cyber threats, businesses and individuals must prioritize data protection. Innovations in AI and machine learning are enhancing threat detection and response.  
+        As we move more services online, securing digital infrastructure is critical. Cybersecurity innovation now focuses on AI-based threat detection, end-to-end encryption, and decentralized security protocols.
+      </p>
+        <p>
+            <strong>Full article: </strong> Explore the latest trends in cybersecurity, including AI-driven threat detection, zero-trust architecture, and data privacy regulations.
+        <p>
+            <strong>Author:</strong> Annente Grace<br>
+            <strong>Date:</strong> March 15, 2025 <br>
+            <strong>Category:</strong> Technology, Cybersecurity
+        </p>
+        <p>
+            <strong>Tags:</strong> Cybersecurity, Technology, Future
+    </div>
+  </div>
+  <div id="modal-blog6" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog6')">&times;</span>
+      <h2>AI and Machine Learning</h2>
+      <p>
+        Artificial Intelligence and Machine Learning are at the forefront of technological advancement. These technologies enable computers to learn from data, recognize patterns, and make decisions with minimal human intervention. From self-driving cars to personalized recommendations, AI and ML are revolutionizing industries and everyday life.
+        Artificial Intelligence is transforming how we analyze data, predict outcomes, and automate tasks, making businesses smarter and more efficient. Learn about the latest ML frameworks and real-world applications.
+      </p>
+        <p>
+            <strong>Full article: </strong> Discover the latest trends in AI and ML, including natural language processing, computer vision, and ethical considerations.
+        <p>
+            <strong>Author:</strong> Mike Grace<br>
+            <strong>Date:</strong> March 15, 2024 <br>
+            <strong>Category:</strong> Technology, AI
+        </p>
+        <p>
+            <strong>Tags:</strong> AI, Machine Learning, Future
+    </div>
+  </div>
+  <div id="modal-blog7" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog7')">&times;</span>
+      <h2>Smart Homes, Smarter Living</h2>
+      <p>
+        Smart home technology is rapidly evolving, offering homeowners greater convenience, energy efficiency, and security. From automated lighting and climate control to integrated entertainment systems, these innovations are transforming daily living.
+        With IoT devices, our homes are more connected than ever. From voice assistants to smart security, life is becoming more seamless and secure. Discover the best smart home gadgets of 2025.
+      </p>
+        <p>
+            <strong>Full article: </strong> Explore the latest trends in smart home technology, including energy management, security systems, and home automation.
+        <p>
+            <strong>Author:</strong> Eric Manifest<br>
+            <strong>Date:</strong> April 15, 2024 <br>
+            <strong>Category:</strong> Technology, Smart Living
+        </p>
+        <p>
+            <strong>Tags:</strong> Smart Living, IoT, Future
+    </div>
+  </div>
+  <div id="modal-blog8" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-blog8')">&times;</span>
+      <h2>Global Collaboration in the Digital Age</h2>
+      <p>
+        <p>Technology bridges distances and brings people together, enabling seamless collaboration regardless of location or time zone.</p>
+        Technology enables global teamwork. Platforms like Zoom and GitHub let teams build amazing things from anywhere in the world. See how remote work is shaping the future of business.
+      </p>
+
+        <p>
+            <strong>Author:</strong> BRIAN JAMES<br>
+            <strong>Date:</strong> May 15, 2025 <br>
+            <strong>Category:</strong> Technology, Collaboration
+        </p>
+        <p>
+            <strong>Tags:</strong> Collaboration, Technology, Future
+    </div>
+  </div>
+
+  <!-- Like Button -->
+  <div class="like-btn-wrapper">
+    <button class="like-button" onclick="likePost()">❤️ Like <span id="like-count">0</span></button>
+  </div>
+
+  <!-- Latest News Section -->
+  <section class="latest-news" id="latest-news">
+    <h2>Latest Tech News</h2>
+    <article class="news-item">
+      <h3>Apple Unveils AI-Powered iOS</h3>
+      <p class="news-date">May 13, 2025</p>
+      <p>Apple’s new iOS integrates advanced AI features, promising smarter suggestions, better privacy, and more...</p>
+      <button onclick="openModal('modal-news1')">Read More</button>
+    </article>
+    <article class="news-item">
+      <h3>OpenAI Launches GPT-5 Preview</h3>
+      <p class="news-date">May 11, 2025</p>
+      <p>OpenAI teases GPT-5 with enhanced reasoning and voice capabilities. Find out what’s coming...</p>
+      <button onclick="openModal('modal-news2')">Read More</button>
+    </article>
+    <article class="news-item">
+      <h3>Kenya Embraces E-Mobility</h3>
+      <p class="news-date">May 10, 2025</p>
+      <p>Kenya's government partners with tech firms to roll out electric mobility infrastructure...</p>
+      <button onclick="openModal('modal-news3')">Read More</button>
+    </article>
+  </section>
+
+  <!-- News Modals -->
+  <div id="modal-news1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-news1')">&times;</span>
+      <h3>Apple Unveils AI-Powered iOS</h3>
+      <p>Apple’s next-generation iOS brings AI to the forefront with personalized Siri, live summarization, on-device intelligence, and improved user privacy. This shift marks a significant leap in mobile OS technology.</p>
+    </div>
+  </div>
+  <div id="modal-news2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-news2')">&times;</span>
+      <h3>OpenAI Launches GPT-5 Preview</h3>
+      <p>GPT-5 preview is now available with massive improvements in real-world task execution, long-term memory, multimodal interaction, and voice integration. Developers are excited to push its capabilities further.</p>
+    </div>
+  </div>
+  <div id="modal-news3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-news3')">&times;</span>
+      <h3>Kenya Embraces E-Mobility</h3>
+      <p>Through strategic partnerships and policy reforms, Kenya is accelerating its transition to electric mobility. Charging stations and incentives are being rolled out in Nairobi, Mombasa, and other urban centers.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <ul class="social-media">
+
+            <li><a href="https://linkedin.com/company/techblog" target="_blank">LinkedIn</a></li>
+          <li><a href="https://twitter.com/techblog" target="_blank">Twitter</a></li>
+          <li><a href="https://facebook.com/techblog" target="_blank">Facebook</a></li>
+          <li><a href="https://instagram.com/techblog" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Subscribe</h4>
+        <button class="subscribe-btn">Subscribe</button>
+        <p>Stay updated with the latest tech news and articles. Subscribe to our newsletter!</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><a href="mailto:ericmue345@gmail.com">techblog345@gmail.com</a></p>
+        <p><a href="tel:+254712345678">+254 712 345 678</a></p>
+        <p><a href="https://maps.google.com/?q=Nairobi+Kenya" target="_blank">Nairobi, Kenya</a></p>
+        <p>&copy; TechBlog. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
