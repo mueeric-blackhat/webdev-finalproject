@@ -5,8 +5,8 @@ A sleek, responsive blog website focused on how technology is transforming our w
 ## 🔗 Live Site
 
 Check out the live version here:  
-👉 **https://monvest-techlogs.vercel.app**  
-_(Replace this with your actual deployment URL)_
+👉 **https://monvest-techlogs.vercel.app/**  
+
 
 ---
 
